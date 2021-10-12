@@ -38,7 +38,7 @@ $ java -jar target/s3-example-0.0.1-SNAPSHOT.jar
 ### ➕ Detalhes da solução desenvolvida
 ___
 * Foi implementado as ações: adicionar, buscar e deletar imagem do S3.
-* Para o projeto rodar é necessário criar um bucket com o nome matheusfaxina-s3-test ou outro nome desde que seja alterado no application.yaml, deve ser informado o access-key e a secret key do seu usuário no application.yaml.
+* Para o projeto rodar é necessário criar um bucket com o nome matheusfaxina-s3-test ou outro nome desde que seja alterado no application.yaml, criar uma pasta dentro do bucket chamada pictures e deve ser informado o access-key e a secret key do seu usuário no application.yaml.
 
 ### ✒️ Autor
 ___
