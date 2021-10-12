@@ -1,0 +1,8 @@
+aws-config:
+  storage:
+    s3:
+#      access-key: access-key
+#      secret-key: secret-key
+      bucket: matheusfaxina-s3-test
+      region: us-east-2
+      path-pictures: pictures
