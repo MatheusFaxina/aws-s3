@@ -1,46 +1,46 @@
 <h1 align="center">AWS S3</h1>
 
-<p align="center">Projeto implementado para aplicar os conhecimentos de AWS S3 obtidos no curso para tirar a certificação SAA-CO2</p>
+<p align="center">Project implemented to apply AWS3 knowledge in the course to take a safety feature obtained SAA-CO2</p>
 
-### 🛠 Tecnologias
+### 🛠 Technologies
 ___
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used in building the project:
 
 - [Java](https://www.java.com/pt-BR/)
 - [Lombok](https://projectlombok.org/)
 - [Spring 2.5.5](https://spring.io/blog/2021/08/19/spring-boot-2-5-5-available-now)
 - [Aws](https://aws.amazon.com/)
 
-### ✅ Pré-requisitos
+### ✅ Prerequisites
 ___
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com/) e [Java](https://www.java.com/pt-BR/).
-Além disto é bom ter um editor para trabalhar com o código como [Intellij](https://www.jetbrains.com/pt-br/idea/)
+Before starting, you will need to have the following tools installed on your machine:
+[Git](https://git-scm.com/) and [Java](https://www.java.com/pt-BR/).
+Besides, it's good to have an editor to work with the code like [Intellij](https://www.jetbrains.com/pt-br/idea/)
 
-### 🎲 Rodando o projeto
+### 🎲 Running the project
 ___
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone <https://gitlab.com/matheusfaxina/s3-example.git>
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access the project folder in terminal/cmd
 $ cd s3-example
 
-# Vá para a pasta server
+# Go to the server folder
 $ mvn clean package
 
-# Instale as dependências
+# Install the dependencies
 $ java -jar target/s3-example-0.0.1-SNAPSHOT.jar
 
-# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+# The server will start on port:3000 - go to <http://localhost:3000>
 ```
 
-### ➕ Detalhes da solução desenvolvida
+### ➕ Details of the developed solution
 ___
-* Foi implementado as ações: adicionar, buscar e deletar imagem do S3.
-* Para o projeto rodar é necessário criar um bucket com o nome matheusfaxina-s3-test ou outro nome desde que seja alterado no application.yaml, criar uma pasta dentro do bucket chamada pictures e deve ser informado o access-key e a secret key do seu usuário no application.yaml.
+* Actions have been implemented: add, fetch and delete S3 image.
+* For the project to run it is necessary to create a bucket with the name matheusfaxina-s3-test or another name as long as it is changed in the application.yaml, create a folder inside the bucket called pictures and the access-key and secret key must be informed of your user in application.yaml.
 
-### ✒️ Autor
+### ✒️ Author
 ___
 <a href="https://www.linkedin.com/in/matheusvfaxina/">
  <img style="border-radius: 50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQHrHj9yWmIbgg/profile-displayphoto-shrink_800_800/0/1610406929592?e=1636588800&v=beta&t=7og_fNQRDlbZp38HsaQ5sV9MMBrxVqO-YkPJKfUyYZo" width="100px;" alt=""/>
